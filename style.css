@@ -7,6 +7,7 @@
 :root {
     --color-blue: #0b1a50;
     --border-radius: 5px;
+    --color-white: #ffffff;
 
 }
 
@@ -54,13 +55,7 @@ footer {
     display:inline-block;
     line-height:0
   }
-  
-  /* .contact h3,
-  .follow h3,
-  .ebook h3 {
-    margin-top: 0;
-  } */
-  
+
   .contact p,
   .follow a {
     margin: 0;
@@ -75,5 +70,25 @@ footer {
     display: block;
     text-align: center;
   }
+  
+  .contact h3, p{
+    color: var(--color-white);
+  }
+
+  .ebook h3{
+    color: var(--color-white);
+    padding: 10px;
+  }
+
+  .follow h3 {
+    color: var(--color-white);
+  }
+
+  .follow h3{
+    padding: 10px;
+  }
+
+
+
   /* codigo css mapa e footer fim */
   
