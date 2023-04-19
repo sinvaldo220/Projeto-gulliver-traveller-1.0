@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+:root {
+    --color-blue: #0b1a50;
+    --border-radius: 5px;
+
+}
+
+
+/* codigo css mapa e footer começo */
+.localizacao {
+    width: 100%;
+    min-height: 100vh;  
+}
+
+.map-responsive{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin: auto; */      
+}
+
+.map-responsive iframe{
+
+    height:550px;
+    width:90%;
+    margin:40px;
+  
+    
+}
+
+.localizacao h2{
+    font-size: 8vmin;
+    padding-top:10px;
+    text-align: center;
+    color: var(--color-blue);
+}
+
+footer {
+    background-color: var(--color-blue);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height:150px;
+    /* max-width: 140px; */
+    display:inline-block;
+    line-height:0
+  }
+  
+  /* .contact h3,
+  .follow h3,
+  .ebook h3 {
+    margin-top: 0;
+  } */
+  
+  .contact p,
+  .follow a {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .follow a {
+    margin-right: 10px;
+  }
+  
+  .ebook a {
+    display: block;
+    text-align: center;
+  }
+  /* codigo css mapa e footer fim */
+  
