@@ -10,6 +10,7 @@
 	 <link rel="stylesheet" type="text/css" href="carrosel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fontawesome.com/icons/facebook?f=brands&s=solid&an=bounce">
+	<link rel="stylesheet" type="text/css" href="inicio.css">
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
@@ -17,46 +18,70 @@
 
 </head>
 <body>
-  <header class="cabeçalho">
+	<header class="cabecalho">
 
-    <div class="logotipo">
-
-        <img class="logo-img" src="fotos/logo-gulliver.png" alt="logo do gulliver traveller">
-
-        <ul class="menu">
-
-            <li class="menu-opções" >
-                <a href="#" class="menu-link"> Sobre mim</a>
-            </li>
-            
-            <li class="menu-opções">
-                <a href="#" class="menu-link">Cupom de desconto</a>
-            </li>
-
-            <li class="menu-opções">
-                <a href="#" class="menu-link">Parceiros</a>
-            </li>
-            
-             <li class="menu-opções">
-                <a href="#" class="menu-link">Promoções</a>
-            </li>
-
-        </ul>
-
-    </div>
-
-</header>
+		<div class="logotipo">
+	
+			<img class="logo-img" src="img/logo-gulliver-menor.png" alt="logo do gulliver traveller">
+	
+			<button class="menu-toggle" aria-expanded="false" aria-controls="menu">
+			  <span class="menu-icon"></span>
+			</button>
+	
+			<ul class="menu" id="menu">
+	
+				<li class="menu-opções" >
+					<a href="#" class="menu-link"> Sobre mim</a>
+				</li>
+				
+				<li class="menu-opções">
+					<a href="#" class="menu-link">Cupom de desconto</a>
+				</li>
+	
+				<li class="menu-opções">
+					<a href="#" class="menu-link">Parceiros</a>
+				</li>
+				
+				 <li class="menu-opções">
+					<a href="#" class="menu-link">Promoções</a>
+				</li>
+	
+			</ul>
+	
+		</div>
+	
+	</header>
 
 
 <div class="lingua">
-<select name="select" class="selctor-linguas">
-  <option value="valor1" selected>PRT</option>
-  <option value="valor2">ING</option>
-  <option value="valor3">ESP</option>
-</select>
-
-
+	<select name="select" class="selctor-linguas">
+	<option value="valor1" selected>PRT</option>
+	<option value="valor2">ING</option>
+	<option value="valor3">ESP</option>
+	</select>
 </div>
+
+<!-- começo site -->
+<div class="container">
+	<h1>Qual tipo de hotel você procura?</h1>
+	<div class="btn-group">
+		<button class="btn active" id="cafe-da-manha"><img src="fotos/cafe-da-manha.png" width="40px" alt="Café da Manhã">Café da Manhã</button>
+		<button class="btn" id="com-spa"><img src="fotos/flor-de-lotus.png"  width="50px" alt="Com Spa">Com Spa</button>
+		<button class="btn" id="sala-de-reuniao"><img src="fotos/reuniao.png"  width="50px" alt="Sala de Reunião">Sala de Reunião</button>
+		<button class="btn" id="sala-de-reuniao"><img src="fotos/piscina.png"  width="50px" alt="Sala de Reunião">Piscina</button>
+	</div>
+</div>
+
+<div class="container">
+	<h2>Pesquise por tipo de acomodação</h2>
+	<div class="acomodacoes">
+		<div class="apartamentos" id="apartamentos"><p>Apartamentos</p></div>
+		<div class="hoteis-e-resorts" id="hoteis-e-resorts"><p>Hotéis e Resorts</p></div>
+		<div class="chales" id="chales"><p>Chalés</p></div>
+	</div>
+</div>
+
+<!-- fim site -->
 
 <!-- carrosel -->
 
@@ -243,34 +268,10 @@
       		
 		</div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
-  
-
   <!-- If we need navigation buttons -->
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
-
-
-
 </div>
 </section>
 
@@ -327,6 +328,6 @@
     </section>
       
 
-    
+    <script src="scroll.js"></script>
 </body>
 </html>
