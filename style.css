@@ -11,6 +11,86 @@
 
 }
 
+/* começo do menu */
+
+.menu{
+	float: right;
+	margin-right: 70px;
+	display: flex;
+	text-align: right;
+	z-index: 5;
+}
+
+.cabeçalho{
+	position: fixed;
+}
+
+.logotipo{
+	background-color: #0B1A50;
+	position: absolute;
+	width: 100vw;
+	margin: 0%;	
+	height: 12vh;
+}
+
+
+.logo-img{
+width:140px;
+height: 87px;
+position: absolute;
+margin-left: 20px; 
+}
+
+
+.menu-link{
+	text-decoration: none;
+	color: white;
+}
+
+.menu-opções{
+	 list-style: none;
+	 text-align: right;
+	 font-size: 20px;
+	 font-weight: bold;
+	 padding: 2em 3em;
+	 z-index: 5;
+}
+
+.menu-opções:hover {
+	 list-style: none;
+	 text-align: right;
+	 font-size: 21px;
+	 color: white;
+	 font-weight: bold;
+	 padding: 1.5em;
+	 z-index: 5;
+
+
+  text-decoration: none;
+  border-bottom: 3px solid skyblue;
+  
+
+}
+
+
+/*//BOTÃO*/
+
+.lingua{
+	padding: 9em;
+	text-align: right;
+}
+
+
+.selctor-linguas{
+	padding: 0.5em 1.5em;
+}
+
+
+
+
+
+/* fim do menu */
+
 
 /* codigo css mapa e footer começo */
 .localizacao {
