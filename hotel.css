@@ -1,0 +1,570 @@
+.title {
+  color: #091dd2;
+  font-weight: 600;
+  font-size: 90px;
+}
+
+.endereco-container {
+  display: flex;
+  padding: 1.5em;
+}
+
+.icone-loc {
+  width: 30px;
+  height: 30px;
+}
+
+.endereco {
+  font-weight: bold;
+  padding: 0.3em;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.link-endereço {
+  text-decoration: none;
+  color: #000;
+}
+.endereco:hover {
+  font-weight: bold;
+  padding: 0.3em;
+  text-decoration: underline;
+  color: #091dd2;
+  font-size: 20px;
+}
+
+.container1 {
+  padding: 0 0 3em 4em;
+}
+
+/* estrelinhas */
+
+.avaliacao {
+  display: flex;
+  text-align: left;
+  width: 25px;
+  height: 25px;
+  margin: 0.5em em;
+}
+
+.nota {
+  padding: 0em 1em;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+}
+
+.star {
+  padding: 0 0.2em;
+}
+
+/* fotos do hotel */
+
+.container-fotos {
+  padding: 2em 6em;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.a {
+  padding: 1em 2em 1em 0;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.b {
+  padding: 1em 3em 1em 0;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.c {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.d {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* descrição do hotel */
+
+.descricao-hotel {
+  font-size: 21px;
+  line-height: 35px;
+  word-wrap: break-all;
+  color: #000;
+  padding: 0 2rem;
+}
+
+/* instalações do hotel */
+
+.instalcoes {
+  padding: 7em;
+}
+
+.instalcoes p {
+  color: #000;
+}
+
+.title-instalacao {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.foto-istalacao {
+  margin-top: 3em;
+  width: 20px;
+  height: 20px;
+}
+
+.foto-istalacaoo {
+  margin-top: 3em;
+  width: 25px;
+  height: 20px;
+  margin-left: 20em;
+}
+
+.foto-istalacaoA {
+  margin-top: 3em;
+  width: 25px;
+  height: 20px;
+  margin-left: 17em;
+}
+
+.foto-istalacaob {
+  margin-top: 3em;
+  width: 25px;
+  height: 20px;
+  margin-left: 22.5em;
+}
+
+.texto-icone {
+  margin-top: 2em;
+  margin-left: 1em;
+  font-size: 22px;
+}
+
+.icones-instalações {
+  display: flex;
+}
+
+.dupla {
+  display: flex;
+}
+
+/* localização */
+
+.container-localização {
+  padding: 7em;
+}
+
+.title-localização {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.subtitulo-localização {
+  margin-top: 1em;
+  color: #12a6d4;
+}
+
+/* distanci dos lugares */
+
+.title-distancia {
+  display: flex;
+  padding: 0 7em;
+}
+
+.tempo {
+  color: #12a6d4;
+  font-size: 82px;
+  font-weight: bold;
+}
+
+.minutos {
+  color: #12a6d4;
+  font-size: 52px;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-left: 0.2em;
+}
+
+.icone-andando {
+  width: 35px;
+  height: 35px;
+  margin-top: 2.5em;
+  margin-left: 1em;
+}
+
+.lugares {
+  padding: 0 7em;
+  line-height: 35px;
+}
+
+.comercio {
+  font-size: 20px;
+}
+
+.todomundo {
+  display: flex;
+}
+
+.todomundo .lugares p {
+  color: #000;
+}
+
+/* caixa de check-in */
+
+.checkin {
+  border: solid #091dd2;
+  width: 330px;
+  height: 88px;
+  border-radius: 8px;
+  padding: 1em 0.1em;
+  margin-top: 7em;
+  /* margin-left: 10em; */
+}
+
+.titulo-checkin {
+  color: #091dd2;
+  padding: 1em;
+}
+
+.data {
+  margin-top: -6em;
+  margin-left: 6em;
+}
+
+input {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  font-size: 21px;
+}
+
+.viajem {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantidade {
+  margin-top: -8em;
+  margin-left: 6em;
+  font-size: 30px;
+}
+
+.lupa {
+  width: 50px;
+  margin-top: 8em;
+  margin-left: 3em;
+}
+
+/* container promoção do quarto */
+
+.container-promoção {
+  width: 1346px;
+  height: 557px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 3em auto;
+  display: flex;
+}
+
+.foto-quarto {
+  width: 400px;
+  margin: 4em;
+}
+
+.descricao-quarto {
+  margin-left: 12em;
+  margin-top: 4em;
+  line-height: 45px;
+}
+.titulo-quarto {
+  color: #0b1a50;
+  font-size: 38px;
+}
+
+.componentes-quarto {
+  line-height: 32px;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+.link-button-preço {
+  text-decoration: none;
+  background-color: #0b1a50;
+  color: #ffffff;
+  border-radius: 3px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em;
+}
+
+.link-button-preço:hover {
+  text-decoration: underline;
+  background-color: #0b1a50;
+  color: #12a6d4;
+  border-radius: 3px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em;
+}
+
+/* avaliação dos hotéis */
+.container-avaliação {
+  margin-top: 12em;
+}
+
+.title-avaliação {
+  font-size: 30px;
+  padding: 0 0 1em 6em;
+}
+
+.LINE {
+  border-top: 3px solid;
+  width: 70%;
+}
+.foto-avaliação {
+  /* padding: 2em 9em; */
+  width: 1200px;
+}
+
+.link-avaliação {
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #0b1a50;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.link-avaliação:hover {
+  text-decoration: underline;
+  color: #f8f6f6;
+  background-color: #0b1a50;
+  border: 1px solid;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.subtitle-avaliação {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container-fotos .a,
+  .c {
+    width: 500px;
+  }
+
+  .container-fotos .b,
+  .d {
+    width: 300px;
+  }
+
+  .container1 .title {
+    font-size: 60px;
+  }
+
+  .todomundo .tempo {
+    font-size: 62px;
+  }
+
+  .todomundo .minutos {
+    font-size: 42px;
+  }
+
+  .todomundo .title-distancia,
+  .todomundo .lugares {
+    padding: 0 4em;
+  }
+
+  .viajem {
+    gap: 20px;
+  }
+
+  .viajem .checkin {
+    width: 250px;
+  }
+
+  .viajem .checkin .data,
+  .quantidade {
+    margin-left: 2em;
+  }
+
+  .container-promoção {
+    width: 95%;
+  }
+
+  .foto-avaliação {
+    width: 100%;
+    padding: 0;
+  }
+
+  .link-button-preço {
+    padding: 0.5em 0.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container1 .title {
+    font-size: 40px;
+  }
+
+  .container-fotos .a,
+  .c {
+    width: 330px;
+  }
+
+  .container-fotos .b,
+  .d {
+    width: 196px;
+  }
+
+  .todomundo .title-distancia,
+  .todomundo .lugares {
+    padding: 0 2em;
+  }
+
+  .container-promoção {
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+  }
+
+  .descricao-quarto {
+    margin-left: 0;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .viajem {
+    padding: 0 2rem;
+  }
+
+  .lupa {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .container-fotos {
+    gap: 5px;
+    padding: 2em 2em;
+  }
+  .container-fotos .a,
+  .c {
+    width: 210px;
+    padding: 0;
+  }
+
+  .container-fotos .b,
+  .d {
+    width: 125px;
+    padding: 0;
+  }
+
+  .descricao-hotel {
+    font-size: 17px;
+  }
+
+  .instalcoes {
+    padding: 2em;
+  }
+
+  .instalcoes .dupla {
+    flex-direction: column;
+  }
+
+  .instalcoes .dupla img {
+    margin-left: 0;
+  }
+
+  .container-localização {
+    padding: 0;
+  }
+
+  .todomundo .title-distancia,
+  .todomundo .lugares {
+    padding: 0;
+  }
+
+  .todomundo {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .viajem {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+
+  .viajem .checkin,
+  .lupa {
+    margin-top: 0;
+  }
+
+  .distancia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-promoção {
+    width: 90%;
+  }
+
+  .foto-quarto {
+    width: 100%;
+    margin: 0;
+  }
+
+  .titulo-quarto {
+    text-align: center;
+  }
+
+  .title-avaliação {
+    padding-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .subtitle-avaliação {
+    padding: 4em 5em;
+  }
+
+  .container-fotos .a,
+  .c {
+    width: 156px;
+    padding: 0;
+  }
+
+  .container-fotos .b,
+  .d {
+    width: 90px;
+    padding: 0;
+  }
+
+  .container1 {
+    padding: 0 2rem;
+  }
+
+  .lingua {
+    padding: 7em;
+  }
+}

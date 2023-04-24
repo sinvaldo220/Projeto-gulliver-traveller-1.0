@@ -1,314 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Guliver Traveller</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-	 <link rel="stylesheet" type="text/css" href="carrosel.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fontawesome.com/icons/facebook?f=brands&s=solid&an=bounce">
-	<link rel="stylesheet" type="text/css" href="inicio.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="carrosel.css" />
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-/>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontawesome.com/icons/facebook?f=brands&s=solid&an=bounce"
+    />
+    <link rel="stylesheet" type="text/css" href="inicio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="logotipo">
+        <img
+          class="logo-img"
+          src="img/logo-gulliver-menor.png"
+          alt="logo do gulliver traveller"
+        />
 
-</head>
-<body>
-	<header class="cabecalho">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="menu">
+          <span class="menu-icon"></span>
+          <span class="menu-icon"></span>
+        </button>
 
-		<div class="logotipo">
-	
-			<img class="logo-img" src="img/logo-gulliver-menor.png" alt="logo do gulliver traveller">
-	
-			<button class="menu-toggle" aria-expanded="false" aria-controls="menu">
-			  <span class="menu-icon"></span>
-			</button>
-	
-			<ul class="menu" id="menu">
-	
-				<li class="menu-opções" >
-					<a href="#" class="menu-link"> Sobre mim</a>
-				</li>
-				
-				<li class="menu-opções">
-					<a href="#" class="menu-link">Cupom de desconto</a>
-				</li>
-	
-				<li class="menu-opções">
-					<a href="#" class="menu-link">Parceiros</a>
-				</li>
-				
-				 <li class="menu-opções">
-					<a href="#" class="menu-link">Promoções</a>
-				</li>
-	
-			</ul>
-	
-		</div>
-	
-	</header>
+        <ul class="menu" id="menu">
+          <li class="menu-opções">
+            <a href="#" class="menu-link"> Sobre mim</a>
+          </li>
 
+          <li class="menu-opções">
+            <a href="#" class="menu-link">Cupom de desconto</a>
+          </li>
 
-<div class="lingua">
-	<select name="select" class="selctor-linguas">
-	<option value="valor1" selected>PRT</option>
-	<option value="valor2">ING</option>
-	<option value="valor3">ESP</option>
-	</select>
-</div>
+          <li class="menu-opções">
+            <a href="#" class="menu-link">Parceiros</a>
+          </li>
 
-<!-- começo site -->
-<div class="container">
-	<h1>Qual tipo de hotel você procura?</h1>
-	<div class="btn-group">
-		<button class="btn active" id="cafe-da-manha"><img src="fotos/cafe-da-manha.png" width="40px" alt="Café da Manhã">Café da Manhã</button>
-		<button class="btn" id="com-spa"><img src="fotos/flor-de-lotus.png"  width="50px" alt="Com Spa">Com Spa</button>
-		<button class="btn" id="sala-de-reuniao"><img src="fotos/reuniao.png"  width="50px" alt="Sala de Reunião">Sala de Reunião</button>
-		<button class="btn" id="sala-de-reuniao"><img src="fotos/piscina.png"  width="50px" alt="Sala de Reunião">Piscina</button>
-	</div>
-</div>
-
-<div class="container">
-	<h2>Pesquise por tipo de acomodação</h2>
-	<div class="acomodacoes">
-		<div class="apartamentos" id="apartamentos"><p>Apartamentos</p></div>
-		<div class="hoteis-e-resorts" id="hoteis-e-resorts"><p>Hotéis e Resorts</p></div>
-		<div class="chales" id="chales"><p>Chalés</p></div>
-	</div>
-</div>
-
-<!-- fim site -->
-
-<!-- carrosel -->
-
-<section class="carrosel">
-	<h2 class="carrosel-titulo"> SUGESTÕES PARA VOCÊ </h2>
-	
-	<!-- Slider main container -->
-<div class="swiper">
-  <!-- Additional required wrapper -->
-<!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
-
-  <div class="swiper-wrapper">
-    <!-- Slides -->
-    
-      
-      
-      <div class="swiper-slide">
-      	<div class="swiper-slide-container">
-
-      	<img src="hoteis/mercure.png" class="img-hoteis">
-      	<p class="nome-hotel">Mercure São Paulo Pamplona</p>
-
-      	<div class="avaliacao">
-      	<p class="nota">4,5</p>
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	</div>
-
-		<div class="valores"> 
-      	<h2 class="diaria">R$ 362,00</h2>
-      	<a href="#" class="button-veroferta">VER OFERTA</a>
-      	</div>
-      		
-		</div>
+          <li class="menu-opções">
+            <a href="#" class="menu-link">Promoções</a>
+          </li>
+        </ul>
       </div>
-    
+    </header>
 
-        <div class="swiper-slide">
-      	<div class="swiper-slide-container">
+    <div class="lingua">
+      <select name="select" class="selctor-linguas">
+        <option value="valor1" selected>PRT</option>
+        <option value="valor2">ING</option>
+        <option value="valor3">ESP</option>
+      </select>
+    </div>
 
-      	<img src="hoteis/Blue-Tree-Premium.png" class="img-hoteis">
-      	<p class="nome-hotel">Blue Tree Premium Morumbi</p>
-
-      	<div class="avaliacao">
-      	<p class="nota">4,4</p>
-      	<img src="fotos/estrelaoff.png" class="img-estrelas">
-      	<img src="fotos/estrelaoff.png" class="img-estrelas">
-      	<img src="fotos/estrelaoff.png" class="img-estrelas">
-        <img src="fotos/estrelaoff.png" class="img-estrelas">
-      	</div>
-
-
-      		<div class="valores"> 
-      		<h2 class="diaria">R$ 658,00</h2>
-      		<a href="#" class="button-veroferta">VER OFERTA</a>
-      		</div>
-		</div>
-
+    <!-- começo site -->
+    <div class="container">
+      <h1>Qual tipo de hotel você procura?</h1>
+      <div class="btn-group">
+        <button class="btn active" id="cafe-da-manha">
+          <img
+            src="fotos/cafe-da-manha.png"
+            width="40px"
+            alt="Café da Manhã"
+          />Café da Manhã
+        </button>
+        <button class="btn" id="com-spa">
+          <img src="fotos/flor-de-lotus.png" width="50px" alt="Com Spa" />Com
+          Spa
+        </button>
+        <button class="btn" id="sala-de-reuniao">
+          <img src="fotos/reuniao.png" width="50px" alt="Sala de Reunião" />Sala
+          de Reunião
+        </button>
+        <button class="btn" id="sala-de-reuniao">
+          <img
+            src="fotos/piscina.png"
+            width="50px"
+            alt="Sala de Reunião"
+          />Piscina
+        </button>
       </div>
+    </div>
 
-
-      <div class="swiper-slide">
-      	<div class="swiper-slide-container">
-
-      	<img src="hoteis/BourbonConvention.png" class="img-hoteis">
-      	<p class="nome-hotel">Bourbon Convention Ibirapuera</p>
-
-      	<div class="avaliacao">
-      	<p class="nota">4,5</p>
-      	<img src="fotos/estrelaoff.png" class="img-estrelas">
-      	<img src="fotos/estrelaoff.png" class="img-estrelas">
-      	<img src="fotos/estrelaoff.png" class="img-estrelas">
-      	<img src="fotos/estrelaoff.png" class="img-estrelas">
-      	</div>
-
-
-      		<div class="valores"> 
-      		<h2 class="diaria">R$ 420,00</h2>
-      		<a href="#" class="button-veroferta">VER OFERTA</a>
-      		</div>
-		</div>
-
-      </div>
-
-      <div class="swiper-slide">
-      	<div class="swiper-slide-container">
-
-      	<img src="hoteis/ibis.png" class="img-hoteis">
-      	<p class="nome-hotel">Ibis Styles São Paulo Anhembi</p>
-
-      	<div class="avaliacao">
-      	<p class="nota">4,4</p>
-        
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-        
-      	</div>
-
-		<div class="valores"> 
-      	<h2 class="diaria">R$ 265,00</h2>
-      	<a href="#" class="button-veroferta">VER OFERTA</a>
-      	</div>
-      		
-		</div>
-      </div>
-
-
-      <div class="swiper-slide">
-      	<div class="swiper-slide-container">
-
-      	<img src="hoteis/goldenplaza.png" class="img-hoteis">
-      	<p class="nome-hotel">Golden Tulip Paulista Plaza</p>
-
-      	<div class="avaliacao">
-      	<p class="nota">5,0</p>
-        
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-        <img src="fotos/estrelaoff.png" >
-      	</div>
-
-		<div class="valores"> 
-      	<h2 class="diaria">R$ 739,00</h2>
-      	<a href="#" class="button-veroferta">VER OFERTA</a>
-      	</div>
-      		
-		</div>
-      </div>
-
-      <div class="swiper-slide">
-      	<div class="swiper-slide-container">
-
-      	<img src="hoteis/sheraton.png" class="img-hoteis">
-      	<p class="nome-hotel">Sheraton WTC São Paulo Hotel
-        </p>
-
-      	<div class="avaliacao">
-      	<p class="nota">4,6</p>
-        
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-        
-      	</div>
-
-		<div class="valores"> 
-      	<h2 class="diaria">R$ 783,00</h2>
-      	<a href="#" class="button-veroferta">VER OFERTA</a>
-      	</div>
-      		
-		</div>
-      </div>
-
-
-
-      <div class="swiper-slide">
-      	<div class="swiper-slide-container">
-
-      	<img src="hoteis/bluepaulista.png" class="img-hoteis">
-      	<p class="nome-hotel">Blue Tree Premium Paulista</p>
-
-      	<div class="avaliacao">
-      	<p class="nota">4,5</p>
-        
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-      	<img src="fotos/estrelaoff.png" >
-        
-      	</div>
-
-		<div class="valores"> 
-      	<h2 class="diaria">R$ 692,00</h2>
-      	<a href="#" class="button-veroferta">VER OFERTA</a>
-      	</div>
-      		
-		</div>
-      </div>
-  </div>
-  <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"></div>
-  <div class="swiper-button-next"></div>
-</div>
-</section>
-
-<!-- fim do carrosel -->
-
-
-
-<!-- script do carrosel -->
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script >
-	const swiper = new Swiper('.swiper', {
-  slidesPerView: 4,
-  spaceBetween: -3,
-   pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
-  },
-});
-</script>
-
-<!-- fim do script carrosel -->
-    <section class="localizacao" id="localizacao">
-        <div class="localizacao-content">
-            <h2>Busque pelo mapa</h2>
-            <div class="map-responsive">
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31631035.644165598!2d-50.31590243113376!3d-14.587083281121231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d9c4ded86c3%3A0xd2e306b593af2097!2sGullivers%20Travel%20Hotel!5e0!3m2!1spt-BR!2sbr!4v1681865910446!5m2!1spt-BR!2sbr"  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>                
-            </div>
+    <div class="container">
+      <h2>Pesquise por tipo de acomodação</h2>
+      <div class="acomodacoes">
+        <div class="apartamentos" id="apartamentos"><p>Apartamentos</p></div>
+        <div class="hoteis-e-resorts" id="hoteis-e-resorts">
+          <p>Hotéis e Resorts</p>
         </div>
+        <div class="chales" id="chales"><p>Chalés</p></div>
+      </div>
+    </div>
+
+    <!-- fim site -->
+
+    <!-- carrosel -->
+
+    <section class="carrosel">
+      <h2 class="carrosel-titulo">SUGESTÕES PARA VOCÊ</h2>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="carousel-wrapper">
+          <!-- Slides -->
+          <div class="carousel-slide">
+            <div class="carousel-container">
+              <img src="hoteis/mercure.png" class="img-hoteis" />
+              <p class="nome-hotel">Mercure São Paulo Pamplona</p>
+
+              <div class="avaliacao">
+                <p class="nota">4,5</p>
+                <img src="fotos/estrelaoff.png" />
+                <img src="fotos/estrelaoff.png" />
+                <img src="fotos/estrelaoff.png" />
+                <img src="fotos/estrelaoff.png" />
+              </div>
+
+              <div class="valores">
+                <h2 class="diaria">R$ 362,00</h2>
+                <a href="goldentulip.html" class="button-veroferta"
+                  >VER OFERTA</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="carousel-container">
+              <img src="hoteis/Blue-Tree-Premium.png" class="img-hoteis" />
+              <p class="nome-hotel">Blue Tree Premium Morumbi</p>
+
+              <div class="avaliacao">
+                <p class="nota">4,4</p>
+                <img src="fotos/estrelaoff.png" class="img-estrelas" />
+                <img src="fotos/estrelaoff.png" class="img-estrelas" />
+                <img src="fotos/estrelaoff.png" class="img-estrelas" />
+                <img src="fotos/estrelaoff.png" class="img-estrelas" />
+              </div>
+
+              <div class="valores">
+                <h2 class="diaria">R$ 658,00</h2>
+                <a href="goldentulip.html" class="button-veroferta"
+                  >VER OFERTA</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="carousel-container">
+              <img src="hoteis/BourbonConvention.png" class="img-hoteis" />
+              <p class="nome-hotel">Bourbon Convention Ibirapuera</p>
+
+              <div class="avaliacao">
+                <p class="nota">4,5</p>
+                <img src="fotos/estrelaoff.png" class="img-estrelas" />
+                <img src="fotos/estrelaoff.png" class="img-estrelas" />
+                <img src="fotos/estrelaoff.png" class="img-estrelas" />
+                <img src="fotos/estrelaoff.png" class="img-estrelas" />
+              </div>
+
+              <div class="valores">
+                <h2 class="diaria">R$ 420,00</h2>
+                <a href="goldentulip.html" class="button-veroferta"
+                  >VER OFERTA</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="carousel-container">
+              <img src="hoteis/ibis.png" class="img-hoteis" />
+              <p class="nome-hotel">Ibis Styles São Paulo Anhembi</p>
+
+              <div class="avaliacao">
+                <p class="nota">4,4</p>
+
+                <img src="fotos/estrelaoff.png" />
+                <img src="fotos/estrelaoff.png" />
+                <img src="fotos/estrelaoff.png" />
+                <img src="fotos/estrelaoff.png" />
+              </div>
+
+              <div class="valores">
+                <h2 class="diaria">R$ 265,00</h2>
+                <a href="goldentulip.html" class="button-veroferta"
+                  >VER OFERTA</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <!-- fim do carrosel -->
+
+    <!-- script do carrosel -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      // 	const swiper = new Swiper('.swiper', {
+      //   slidesPerView: 4,
+      //   spaceBetween: -3,
+      //    pagination: {
+      //     el: '.swiper-pagination',
+      //     type: 'bullets',
+      //   },
+      // });
+    </script>
+
+    <!-- fim do script carrosel -->
+    <section class="localizacao" id="localizacao">
+      <div class="localizacao-content">
+        <h2>Busque pelo mapa</h2>
+        <div class="map-responsive">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31631035.644165598!2d-50.31590243113376!3d-14.587083281121231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d9c4ded86c3%3A0xd2e306b593af2097!2sGullivers%20Travel%20Hotel!5e0!3m2!1spt-BR!2sbr!4v1681865910446!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
     </section>
 
     <section>
-
-    <footer>
+      <footer>
         <div class="logo">
-          <img src="img/logo-gulliver-menor.png" alt="Logo">
+          <img src="img/logo-gulliver-menor.png" alt="Logo" />
         </div>
         <div class="contact">
           <h3>Fale Conosco:</h3>
@@ -317,17 +273,18 @@
         </div>
         <div class="follow">
           <h3>Siga-nos:</h3>
-          <a href="#"><i class="fa fa-instagram" style="font-size:47px"></i></a>
-          <a href="#" ><img src="img/facebook.png" alt="" width="38px"></a>
+          <a href="#"
+            ><i class="fa fa-instagram" style="font-size: 47px"></i
+          ></a>
+          <a href="#"><img src="img/facebook.png" alt="" width="38px" /></a>
         </div>
         <div class="ebook">
           <h3>Baixe nosso E-book:</h3>
-          <a href="#"><img src="img/download.png" alt="" width="40px"></a>
+          <a href="#"><img src="img/download.png" alt="" width="40px" /></a>
         </div>
       </footer>
     </section>
-      
 
     <script src="scroll.js"></script>
-</body>
+  </body>
 </html>
