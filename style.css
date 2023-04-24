@@ -219,7 +219,7 @@ p {
 }
 
 .menu-active {
-  transform: translateY(68%);
+  transform: translateY(84%);
   transition: 0.3s ease-in-out;
 }
 .icon-active {
